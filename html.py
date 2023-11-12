@@ -1,0 +1,15 @@
+title_of_the_article = input()
+content = input()
+comments = input()
+print(f"<h1>")
+print(f"    {title_of_the_article}")
+print(f"</h1>")
+print(f"<article>")
+print(f"    {content}")
+print(f"</article>")
+while comments != "end of comments":
+    print("<div>")
+    print(f"    {comments}")
+    print("</div>")
+    comments = input()
+
